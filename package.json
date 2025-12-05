@@ -1,0 +1,37 @@
+{
+  "type": "module",
+  "name": "kambaz-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the kambaz application",
+  "keywords": [
+    "Node",
+    "Rest",
+    "Server",
+    "HTTP",
+    "Web",
+    "Development"
+  ],
+  "homepage": "https://github.com/singhsaravjit/kambaz-node-server-app#readme",
+  "bugs": {
+    "url": "https://github.com/singhsaravjit/kambaz-node-server-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhsaravjit/kambaz-node-server-app.git"
+  },
+  "license": "ISC",
+  "author": "Saravjit Singh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongoose": "^9.0.0",
+    "uuid": "^13.0.0"
+  }
+}
