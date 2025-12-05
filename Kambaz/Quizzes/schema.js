@@ -10,6 +10,7 @@ const quizSchema = new mongoose.Schema(
     points: { type: Number, default: 0 },
     assignmentGroup: { type: String, default: "Quizzes" },
     shuffleAnswers: { type: Boolean, default: true },
+    hasTimeLimit: { type: Boolean, default: true },
     timeLimit: { type: Number, default: 20 },
     multipleAttempts: { type: Boolean, default: false },
     attemptsAllowed: { type: Number, default: 1 },
